@@ -1,10 +1,8 @@
 package org.joutak.loginpluginforjoutak.logic.inputoutput;
 
-import org.joutak.loginpluginforjoutak.logic.dto.PlayerDto;
-
-import java.util.List;
+import org.joutak.loginpluginforjoutak.logic.dto.PlayerDtos;
 
 public interface Reader {
-    List<PlayerDto> read();
+    PlayerDtos read();
 
 }

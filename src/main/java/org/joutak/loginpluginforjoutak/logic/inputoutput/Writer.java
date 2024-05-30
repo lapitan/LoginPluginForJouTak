@@ -1,11 +1,12 @@
 package org.joutak.loginpluginforjoutak.logic.inputoutput;
 
 import org.joutak.loginpluginforjoutak.logic.dto.PlayerDto;
-
-import java.util.List;
+import org.joutak.loginpluginforjoutak.logic.dto.PlayerDtos;
 
 public interface Writer {
 
-    void write(List<PlayerDto> playerDtos);
+    void write(PlayerDtos playerDtos);
+
+    void addNew(PlayerDto playerDto);
 
 }
